@@ -11,7 +11,7 @@ typedef struct {//链队队列
 void InitQueue(LinkQueue &Q){
     Q.front = Q.rear = NULL;//链表初始化
 }
-bool DeQueue(LinkQueue &Q,int &x){
+bool DeQueue(LinkQueue &Q,int &x){//出队
     if(Q.rear==NULL)//判空
         return false;
     x = Q.front->data;
