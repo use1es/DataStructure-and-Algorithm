@@ -55,7 +55,7 @@ bool printQueue(SqQueue Q){//打印队列所有元素
     }
     return true;
 }
-int main(){
+int main(){ 
     SqQueue Q;
     Q = Queue_Insert(Q);
     printQueue(Q);
